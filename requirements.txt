@@ -1,8 +1,29 @@
+anaconda should be installed to have a python of version 3.6 as 
+enviroment
+conda create -n yourenvname python=3.6 anaconda
+
+
+
+
+
 nltk==3.4.
-numpy==1.17.4
-pandas==0.25.3
+pip install nltk
+
+
 spacy==2.2.3
-en-core-web-md==2.2.5              
-en-core-web-sm==2.2.5 
-language-check==1.1                
-language-tool==0.3 
+pip install spacy
+
+en-core-web-md==2.2.5
+python -m spacy download en_core_web_md
+python -m spacy download en_core_web_sm              
+en-core-web-sm==2.2.5
+
+pip install language_tool
+language-tool==0.3
+FIRST install language tool then language-check
+language-check==1.1  
+pip install language_check              
+
+
+
+
