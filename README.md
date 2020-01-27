@@ -1,6 +1,6 @@
 ### Credits @dipta1010
 
-## Please also read the README.md inside to avoid in future problems that I faced while making this project.It has got some installation instructions as well on how to properly install the requirements and in order of priority
+## Please also read the requirements.txt inside to avoid in future problems that I faced while making this project.It has got some installation instructions as well on how to properly install the requirements and in order of priority
 
 
 
