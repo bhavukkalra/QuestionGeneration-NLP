@@ -1,2 +1,0 @@
-# QuestionGeneration-NLP
-STEPS TO RECREATE THE PROJECT 
