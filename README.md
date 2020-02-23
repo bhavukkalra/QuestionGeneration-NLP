@@ -1,4 +1,4 @@
-### Credits @dipta1010
+
 
 ## Please also read the requirements.txt inside to avoid in future problems that I faced while making this project.It has got some installation instructions as well on how to properly install the requirements and in order of priority
 
@@ -51,30 +51,6 @@ Water has been present on Earth since its earlier days and is constantly moved a
 Who will not have enough fresh water?
 ```
  
-# Main Function
-## main.py
-```python
-    # Main Function
-    def main():
-        # Create AQG object
-        aqg = aqgFunction.AutomaticQuestionGenerator()
-
-        # Enter input Text File PATH
-        inputTextPath = "PATH: (Like:- E:/in.txt)"
-        readFile = open(inputTextPath, 'r+')
-        inputText = readFile.read()
-
-        questionList = aqg.aqgParse(inputText)
-        aqg.display(questionList)
-
-        return 0
-
-
-    # Call Main Function
-    if __name__ == "__main__":
-        main()
- 
-```
 
 ### THANK YOU
 
